@@ -31,7 +31,7 @@ const UserForm = () => {
         setHandle("");
         setImages([]);
       } else {
-        alert(result.message || "Error submitting form");
+        alert(result.message || "Can't Submit!");
       }
     } catch (error) {
       console.error("Error:", error);
